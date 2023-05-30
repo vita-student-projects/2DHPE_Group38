@@ -1,0 +1,11 @@
+*.jpg
+data
+pre-trained
+*.log
+__pycache__
+*.pyc
+
+*log*
+core.*
+slurm*
+trained*
