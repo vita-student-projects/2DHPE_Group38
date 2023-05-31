@@ -1,5 +1,9 @@
 # AdversarialOmniPose
 
+### Nicola Ramdass
+### Edouard Dufour
+
+
 ## OmniPose<sup>[1]</sup>
 
 <figure>
