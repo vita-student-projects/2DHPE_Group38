@@ -67,9 +67,16 @@ First, pure OmniPose (OmniPose) was retrained with 18 epochs to have a more reas
 
 The OmniPose model was then used as the generator in the netword described above with the discriminator from the Adversarial Pose Net paper (OmniPoseAN). The model was trained from scratch for 18 epochs and achieved an average precision of 0.519. Though slightly lower, the training of the adversarial network was slightly more stable, epoch to epoch as compared to pure OmniPose. This comparison is shown in the graph below for the 18 epochs.
 
-Lastly, a pretrained OmniPose model was loaded into the adversarial network (OmniPoseAN2) and the training was continued for 10 more epochs resulting in an average precision value of ____.
+<figure>
+    <img src="graph.png">
+    <div align="center">
+        <figcaption>Figure 4: Comparsion of AP per Epoch</figcaption>
+    </div>
+</figure>
 
-Below, three of the same image is shown after being passed through an inference of the different experiments described above. The OmniPose model does the human pose estimation quite well. The OmniPoseAN model seems to perform very poorly although having a similar average precision. The OmniPoseAN2 performs well enough.
+Lastly, a pretrained OmniPose model was loaded into the adversarial network (OmniPoseAN2) and the training was continued for 10 more epochs resulting in an average precision value of 0.594.
+
+Below, three of the same image is shown after being passed through an inference of the different experiments described above. The OmniPose model does the human pose estimation quite well. The OmniPoseAN model seems to perform very poorly although having a similar average precision. The OmniPoseAN2 performs well enough with one misplace keypoint, even though a higher average precision is reported.
 
 <figure>
     <img src="example1.png">
@@ -86,6 +93,7 @@ Another example for all three models is shown below.
         <figcaption>Figure 5: Example 2</figcaption>
     </div>
 </figure>
+
 
 ## Pre-trained Models
 
