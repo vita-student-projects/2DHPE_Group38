@@ -1,7 +1,8 @@
 # AdversarialOmniPose
 
-### Nicola Ramdass
-### Edouard Dufour
+### Group 38
+Nicola Ramdass
+Edouard Dufour
 
 
 ## OmniPose<sup>[1]</sup>
