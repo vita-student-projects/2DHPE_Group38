@@ -139,6 +139,8 @@ In the configuration files, ensure that the argument ROOT to the path where the 
 
 ## Inferencing
 
+The weights of the models can be found [here](https://drive.google.com/drive/folders/172TXIn22E5UO4aDahebP-2IGRABc-mjF?usp=sharing). 
+
 To run an inference, run the bash file run_demo.sh with the selected configuration, OmniPose/experiments/coco/omnipose_w48_384x288_train.yaml is used. Ensure that the model you wish to infer has a correct path in the configuration file.
 
 Pure OmniPose: /OmniPose/trained/coco/omnipose/omnipose_w48_384x288_train/checkpoint.pth
