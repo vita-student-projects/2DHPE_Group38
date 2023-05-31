@@ -24,7 +24,7 @@ Methods of human pose estimation using adversarial networks have yielded good re
 In our project, we implemented a similar adversarial network architecture to a more complex model, more specifically the existing OmniPose model to see the effect on the performance.
 An advantage of this kind of adversarial method is that it can have a positive impact on the performance of a model without adding computational complexity in the inference process.
 <figure>
-    <img src="AdversarialNetwork.png">
+    <img src="arch.png">
     <div align="center">
         <figcaption>Figure 3: Implemented Adversarial Network</figcaption>
     </div>
@@ -72,7 +72,7 @@ Lastly, a pretrained OmniPose model was loaded into the adversarial network (Omn
 Below, three of the same image is shown after being passed through an inference of the different experiments described above. The OmniPose model does the human pose estimation quite well. The OmniPoseAN model seems to perform very poorly although having a similar average precision. The OmniPoseAN2 performs well enough.
 
 <figure>
-    <img src="paddle.png">
+    <img src="example1.png">
     <div align="center">
         <figcaption>Figure 4: Example 1</figcaption>
     </div>
@@ -81,7 +81,7 @@ Below, three of the same image is shown after being passed through an inference 
 Another example for all three models is shown below. 
 
 <figure>
-    <img src="horse.png">
+    <img src="example2.png">
     <div align="center">
         <figcaption>Figure 5: Example 2</figcaption>
     </div>
