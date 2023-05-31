@@ -71,11 +71,21 @@ Lastly, a pretrained OmniPose model was loaded into the adversarial network (Omn
 
 Below, three of the same image is shown after being passed through an inference of the different experiments described above. The OmniPose model does the human pose estimation quite well. The OmniPoseAN model seems to perform very poorly although having a similar average precision. The OmniPoseAN2 performs well enough.
 
- add stand up paddle board image
+<figure>
+    <img src="paddle.png">
+    <div align="center">
+        <figcaption>Figure 4: Example 1</figcaption>
+    </div>
+</figure>
 
 Another example for all three models is shown below. 
 
-add girl on horse image 
+<figure>
+    <img src="horse.png">
+    <div align="center">
+        <figcaption>Figure 5: Example 2</figcaption>
+    </div>
+</figure>
 
 ## Pre-trained Models
 
