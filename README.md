@@ -151,6 +151,9 @@ OmniPose with AN with pre-trained: /OmniPose/trained_GAN_2/coco/omnipose/omnipos
 
 The inference will save images every 100 images in the folder OmniPose/samples. 
 
+## Conclusion
+
+The proposed method does not perform very well likely due to several factors such as limited training time and resources, sturcture of the models and maybe hyperparameters. However, the concept has shown to improve performance of a model such as in the OmniPoseAN with the loaded weights. The inferencing function may also have been faulty since many images showed wrong keypoints, despite having a pretty high average precision.
 
 ## References
 ### Papers
